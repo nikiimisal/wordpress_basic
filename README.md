@@ -5,7 +5,7 @@
       word press install through LEMP server
       start a aws service or any services..
       open any terminal  and first upon download related software..
-      such as nginx , mariadb (mariadb105-server), sql (sql-fpm) fpm is a key component or a package manager of sql.
+      such as nginx , mariadb (mariadb105-server), sql (sql-fpm) fpm is a key component or a package manager of sql,and also download php-mysqli connector.
       and start the softwers to command
 
 
