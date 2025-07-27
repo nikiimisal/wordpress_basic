@@ -2,7 +2,7 @@
 
 
 <h1>step 1</h1>
-
+      word press install through LEMP server
       start a aws service or any services..
       open any terminal  and first upon download related software..
       such as nginx , mariadb (mariadb105-server), sql (sql-fpm) fpm is a key component or a package manager of sql.
