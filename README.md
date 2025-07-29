@@ -26,7 +26,7 @@
     checkup step our installection and setup..
     
   <br> ---check your nginx run properly in web server 
-   ---https://localhost/
+   ---https://localhost/<br>
       if they show welcom to nginx ..here you go "nginx is not causing the problem."
    ---
          
