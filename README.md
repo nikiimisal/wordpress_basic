@@ -32,6 +32,7 @@
        https://localhost/wordpress<br>
    --- if the webpage run but after the submitting information another web page show nginx error,
        then you will check database connection ....or what's the other problem check also..<br>
+   --- fill the informaction and here you will go wordpress website web page
        
          
          
