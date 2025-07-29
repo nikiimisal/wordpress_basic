@@ -13,7 +13,22 @@
 
          i have use amizon linux service and nginx software.so i have go to nginx root path of html.there we have download the wordpress.
          my path     cd /usr/share/nginx/html/
-         go to html and there we download wordpress through nginx
+         go to html and there we download wordpress through link
          command : sudo wget https://wordpress.org/latest.zip
+         "When downloading a file that is in .zip format, check if the unzip software is installed. If it's not, install it. 
+         installaction command for nginx
+         sudo yum install unzip
+         Then unzip the file using 
+         sudo unzip filename."
+         then it will add wordpress directory in html directory
+         
+<<h1> step 3</h1>
+    checkup step our installection and setup..
+    
+   ---check your nginx run properly in web server 
+   ---https://localhost/
+      if they show welcom to nginx ..here you go "nginx is not causing the problem."
+   ---
+         
          
 
