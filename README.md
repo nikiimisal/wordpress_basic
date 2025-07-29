@@ -22,7 +22,7 @@
          sudo unzip filename."
          then it will add wordpress directory in html directory
          
-<<h1> step 3</h1>
+<h1> step 3</h1>
     checkup step our installection and setup..
     
   <br> ---check your nginx run properly in web server <br>
@@ -33,6 +33,9 @@
    --- if the webpage run but after the submitting information another web page show nginx error,
        then you will check database connection ....or what's the other problem check also..<br>
    --- fill the informaction and here you will go wordpress website web page
+
+<h1> step 4</h1>
+   
        
          
          
