@@ -27,9 +27,9 @@
     
   <br> ---check your nginx run properly in web server <br>
    ---https://localhost/<br>
-      if they show welcom to nginx ..here you go "nginx is not causing the problem."
+      if they show welcom to nginx ..here you go "nginx is not causing the problem."<br>
    ---then try<br>
-       https://localhost/wordpress
+       https://localhost/wordpress<br>
    --- if the webpage run but after the submitting information another web page show nginx error,
        then you will check database connection ....or what's the other problem check also..<br>
        
