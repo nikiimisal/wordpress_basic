@@ -30,17 +30,19 @@
       if they show welcom to nginx ..here you go "nginx is not causing the problem."<br>
    ---then try<br>
        https://localhost/wordpress<br>
-   --- if the webpage run but after the submitting information another web page show nginx error,
+   --- if the webpage run but after the submitting information another web page show nginx error,<br>
        then you will check database connection   i have face that problem....or what's the other problem check also..<br>
    --- fill the informaction and here you will go wordpress website web page..<br>
    ---And if you have a public IP, then even if you stop and restart the server, the same old IP will be assigned to WordPress. <br>
-       So the best solution is to use a domain name or use a private IP
+       So the best solution is to use a domain name or use a private IP .
 
 <h1> step 4</h1>
      You try to understand the settings there, and how to edit, delete, and create themes, words, and other features.  <br>
      here will you go to create wordpres through website.<br>
-     After that I went ahead and created a WordPress website.
-     I created a news article, took a screenshot of that website, and posted it on LinkedIn
+     After that I went ahead and created a WordPress website.<br>
+     I created a news article, took a screenshot of that website, and posted it on LinkedIn.
+    --- https://www.linkedin.com/in/nikhilmisal/
+    
    
        
          
