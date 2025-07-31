@@ -11,7 +11,7 @@
 
 <h1>step 2</h1>
 
-         i have use amizon linux service and nginx software.so i have go to nginx root path of html.there we have download the wordpress.
+ i have use amizon linux service and nginx software.so i have go to nginx root path of html.there we have download the wordpress.
          my path     cd /usr/share/nginx/html/
          go to html and there we download wordpress through link
          command : sudo wget https://wordpress.org/latest.zip
