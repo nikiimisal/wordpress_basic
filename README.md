@@ -40,8 +40,9 @@
      You try to understand the settings there, and how to edit, delete, and create themes, words, and other features.  <br>
      here will you go to create wordpres through website.<br>
      After that I went ahead and created a WordPress website.<br>
-     I created a news article, took a screenshot of that website, and posted it on LinkedIn.
-    --- https://www.linkedin.com/in/nikhilmisal/
+     I created a news article, took a screenshot of that website, and posted it on LinkedIn.<br>
+    --- https://www.linkedin.com/in/nikhilmisal/<br>
+    
     
    
        
