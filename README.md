@@ -2,25 +2,25 @@
 
 
 <h1>step 1</h1>
-      word press install through LEMP server
-      start a aws service or any services..
-      open any terminal  and first upon download related software..
-      such as nginx , mariadb (mariadb105-server), sql (sql-fpm) fpm is a key component or a package manager of sql,and also download php-mysqli connector.
+      word press install through LEMP server<br>
+      start a aws service or any services..<br>
+      open any terminal  and first upon download related software..<br>
+      such as nginx , mariadb (mariadb105-server), sql (sql-fpm) fpm is a key component or a package manager of sql,and also download php-mysqli connector.<br>
       and start the softwers to command
 
 
 <h1>step 2</h1>
 
- i have use amizon linux service and nginx software.so i have go to nginx root path of html.there we have download the wordpress.
-         my path     cd /usr/share/nginx/html/
-         go to html and there we download wordpress through link
-         command : sudo wget https://wordpress.org/latest.zip
-         "When downloading a file that is in .zip format, check if the unzip software is installed. If it's not, install it. 
-         installaction command for nginx
-         sudo yum install unzip
-         Then unzip the file using 
-         sudo unzip filename."
-         then it will add wordpress directory in html directory
+ i have use amizon linux service and nginx software.so i have go to nginx root path of html.there we have download the wordpress.<br>
+         my path     cd /usr/share/nginx/html/<br>
+         go to html and there we download wordpress through link<br>
+         command : sudo wget https://wordpress.org/latest.zip<br>
+         "When downloading a file that is in .zip format, check if the unzip software is installed. If it's not, install it. <br>
+         installaction command for nginx<br>
+         sudo yum install unzip<br>
+         Then unzip the file using <br>
+         sudo unzip filename."<br>
+         then it will add wordpress directory in html directory<br>
          
 <h1> step 3</h1>
     checkup step our installection and setup..
