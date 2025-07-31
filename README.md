@@ -2,7 +2,7 @@
 
 
 <h1>step 1</h1>
-      word press install through LEMP server<br>
+    <h2>  word press install through LEMP server</h2><br>
       start a aws service or any services..<br>
       open any terminal  and first upon download related software..<br>
       such as nginx , mariadb (mariadb105-server), sql (sql-fpm) fpm is a key component or a package manager of sql,and also download php-mysqli connector.<br>
