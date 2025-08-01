@@ -5,25 +5,22 @@
     <h2> WordPress Installation on Amazon Linux using LEMP Stack</h2><br>
 ✅ Packages to Install:
 
-Nginx (Web server)
-
-MariaDB (mariadb105-server) – Database server
-
-PHP-FPM (php-fpm) – PHP FastCGI Process Manager
-
-PHP-MySQLi – PHP extension for MySQL interaction
-
-Unzip – For extracting the WordPress archive
+► Nginx (Web server)
+► MariaDB (mariadb105-server) – Database server
+► PHP-FPM (php-fpm) – PHP FastCGI Process Manager
+► PHP-MySQLi – PHP extension for MySQL interaction
+► Unzip – For extracting the WordPress archive
 
 📦 Installation Commands:
 
                   sudo yum update -y
                   sudo yum install -y nginx mariadb105-server php php-fpm php-mysqli unzip 
                   
-                  sudo systemctl start nginx
-                  sudo systemctl start mariadb
-                  sudo systemctl enable nginx
-                  sudo systemctl enable mariadb
+                  sudo service start nginx
+                  sudo service start mariadb
+                  sudo service start php-fpm
+                  sudo service enable nginx
+                  sudo service enable mariadb
 
 <h1>Step 2: Download and Extract WordPress</h1>
 Navigate to Nginx's web root directory and download the latest version of WordPress:
@@ -39,7 +36,6 @@ This will extract the wordpress folder into /usr/share/nginx/html/.
   
  ✅ Check Nginx:
 Visit the following URL in a browser:
-
 http://localhost/ → Should display "Welcome to Nginx"
 
 ✅ Check WordPress:
