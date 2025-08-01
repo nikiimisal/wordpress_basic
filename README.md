@@ -1,46 +1,94 @@
 # wordpress_basic
 
 
-<h1>step 1</h1>
-    <h2>  word press install through LEMP server</h2><br>
-      start a aws service or any services..<br>
-      open any terminal  and first upon download related software..<br>
-      such as nginx , mariadb (mariadb105-server), sql (sql-fpm) fpm is a key component or a package manager of sql,and also download php-mysqli connector.<br>
-      and start the softwer's to command
+<h1>Step 1 : Install Required Software</h1>
+    <h2> WordPress Installation on Amazon Linux using LEMP Stack</h2><br>
+✅ Packages to Install:
 
+Nginx (Web server)
 
-<h1>step 2</h1>
+MariaDB (mariadb105-server) – Database server
 
- i have use amizon linux service and nginx software.so i have go to nginx root path of html.there we have download the wordpress.<br>
-         my path     cd /usr/share/nginx/html/<br>
-         go to html and there we download wordpress through link<br>
-         command : sudo wget https://wordpress.org/latest.zip<br>
-         "When downloading a file that is in .zip format, check if the unzip software is installed. If it's not, install it. <br>
-         installaction command for nginx<br>
-         sudo yum install unzip<br>
-         Then unzip the file using <br>
-         sudo unzip filename."<br>
-         then it will add wordpress directory to html directory<br>
+PHP-FPM (php-fpm) – PHP FastCGI Process Manager
+
+PHP-MySQLi – PHP extension for MySQL interaction
+
+Unzip – For extracting the WordPress archive
+
+📦 Installation Commands:
+
+                  sudo yum update -y
+                  sudo yum install -y nginx mariadb105-server php php-fpm php-mysqli unzip 
+                  
+                  sudo systemctl start nginx
+                  sudo systemctl start mariadb
+                  sudo systemctl enable nginx
+                  sudo systemctl enable mariadb
+
+<h1>Step 2: Download and Extract WordPress</h1>
+Navigate to Nginx's web root directory and download the latest version of WordPress:
+
+         cd /usr/share/nginx/html/
+         sudo wget https://wordpress.org/latest.zip
+         sudo unzip latest.zip
+
          
-<h1> step 3</h1>
-    checkup step our installection and setup..
-    
-  <br> ---check your nginx run properly in web server <br>
-   ---https://localhost/<br>
-      if they show welcom to nginx ..here you go "nginx is not causing the problem."<br>
-   ---then try<br>
-       https://localhost/wordpress<br>
-   --- if the webpage run but after the submitting information another web page show nginx error,<br>
-       then you will check database connection   i have face that problem....or what's the other problem check also..<br>
-   --- fill the informaction and here you will go wordpress website web page..<br>
-   ---And if you have a public IP, then even if you stop and restart the server, the same old IP will be assigned to WordPress. <br>
-       So the best solution is to use a domain name or use a private IP .
+This will extract the wordpress folder into /usr/share/nginx/html/.
+         
+<h1> Step 3: Verify Installation and Troubleshoot</h1>
+  
+ ✅ Check Nginx:
+Visit the following URL in a browser:
 
-<h1> step 4</h1>
-     You try to understand the settings there, and how to edit, delete, and create themes, words, and other features.  <br>
-     here will you go to create wordpres through website.<br>
-     After that I went ahead and created a WordPress website.<br>
-     I created a news article, took a screenshot of that website, and posted it on LinkedIn.<br>
+http://localhost/ → Should display "Welcome to Nginx"
+
+✅ Check WordPress:
+http://localhost/wordpress → Should launch the WordPress setup interface
+
+⚠️ Error After Submitting WordPress Installation Details
+If the WordPress installation page loads but displays an Nginx error after submitting the setup form
+(such as site title, username, and database details), this typically indicates a backend issue. 
+The most common cause is a database connection error.
+
+✅ Recommended Actions:
+Verify Database Configuration:
+
+Ensure that the MySQL/MariaDB service is running.
+
+Confirm that the database name, username, and password entered in the setup form are correct.
+
+Check that the php-mysqli extension is installed to enable WordPress to connect to the database..
+
+Submit the WordPress Setup Form Again:
+Once the database connection issue is resolved, return to http://your-ip/wordpress and complete the installation process.
+
+"You may encounter different problems or errors during the process. Identify the specific issue and resolve it accordingly."
+
+🔐 Note:
+If using a public IP, restarting the EC2 instance may assign a new IP. To prevent this:
+
+Allocate and associate an Elastic IP
+
+Or configure a domain name pointing to your instance
+
+<h1>Step 4: Customize WordPress</h1>
+   Once WordPress is installed:
+
+Log in to the WordPress admin dashboard
+
+Learn to create, edit, and manage:
+
+Themes
+
+Posts and Pages
+
+Plugins
+
+Site settings
+
+You can now build and launch your website.
+
+ I created a WordPress-based news article site, captured a screenshot, and shared it on my LinkedIn profile.
     --- https://www.linkedin.com/in/nikhilmisal/<br>
     
     
