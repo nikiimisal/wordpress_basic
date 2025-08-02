@@ -6,10 +6,10 @@
 ✅ Packages to Install:
 
 ► Nginx (Web server)
-► MariaDB (mariadb105-server) – Database server
-► PHP-FPM (php-fpm) – PHP FastCGI Process Manager
-► PHP-MySQLi – PHP extension for MySQL interaction
-► Unzip – For extracting the WordPress archive
+► MariaDB (mariadb105-server) – Database server<br>
+► PHP-FPM (php-fpm) – PHP FastCGI Process Manager<br>
+► PHP-MySQLi – PHP extension for MySQL interaction<br>
+► Unzip – For extracting the WordPress archive<br>
 
 📦 Installation Commands:
 
@@ -70,17 +70,17 @@ Or configure a domain name pointing to your instance
 <h1>Step 4: Customize WordPress</h1>
    Once WordPress is installed:
 
-Log in to the WordPress admin dashboard
+► Log in to the WordPress admin dashboard
 
-Learn to create, edit, and manage:
+► Learn to create, edit, and manage:
 
-Themes
+► Themes
 
-Posts and Pages
+► Posts and Pages
 
-Plugins
+► Plugins
 
-Site settings
+► Site settings
 
 You can now build and launch your website.
 
