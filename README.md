@@ -25,6 +25,7 @@
 
                  sudo chmod -R 777 wordpress/
                  sudo chmod -R 777 html/
+                 ls -l
 
 <h1>Step 2: Download and Extract WordPress</h1>
 Navigate to Nginx's web root directory and download the latest version of WordPress:
