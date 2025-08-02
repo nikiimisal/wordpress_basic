@@ -58,7 +58,7 @@ Check that the php-mysqli extension is installed to enable WordPress to connect 
 Submit the WordPress Setup Form Again:
 Once the database connection issue is resolved, return to http://your-ip/wordpress and complete the installation process.
 
-"You may encounter different problems or errors during the process. Identify the specific issue and resolve it accordingly."
+»» "You may encounter different problems or errors during the process. Identify the specific issue and resolve it accordingly."
 
 🔐 Note:
 If using a public IP, restarting the EC2 instance may assign a new IP. To prevent this:
